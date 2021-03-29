@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.botton{
+    background-color: #c7ffd8;
+    border: none;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+/* rules for header */
+header{
+    height: 80px;
+    background-color: #161d6f;
+    color: #f3bfb3;
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+    font-style: oblique;
+}
+
+.container-header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+header .fa-shopping-cart{
+    margin: auto 0;
+}
+
+/* rules for main */
+main {
+    min-height: calc(100vh - 140px);
+    background-color: #cbe1ef;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.pt{
+    padding-top: 20px;
+}
+
+.table{
+    background-color: #98ded9;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.table tbody tr:hover {
+    background-color: #f6f6f6;
+ }
+
+table thead tr{
+    background-color: #161d6f;
+    color: white;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+td{
+    height: 40px;
+}
+
+/* rules for footer */
+footer{
+    height: 60px;
+    background-color: #161d6f;
+    text-align: center;
+}
+
+.container-footer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+footer i{
+    font-size: 30px;
+    margin:14px 20px;
+    color: #c7ffd8;
+}

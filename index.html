@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BTB library</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container-header">
+            <h1>BTB</h1>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="container pt">
+            <form action="" id="book-add">
+                <label for="titolo">Titolo:</label>
+                <input type="text" id="titolo">
+                <label for="autore">Autore:</label>
+                <input type="text" id="autore">
+                <label for="publicazione">Publicazione:</label>
+                <input type="text" id="publicazione">
+                <label for="prezzo">Prezzo:</label>
+                <input type="text" id="prezzo">
+                <input type="submit" value="Add Book" class="botton">
+            </form>
+        </section>
+
+
+        <section class="container">
+            <table class="table">
+                <thead id="row-principal">
+                  <tr>
+                    <th scope="col">Titolo</th>
+                    <th scope="col">Autore</th>
+                    <th scope="col">Publicazione</th>
+                    <th scope="col">Prezzo</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody class="book-list">
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <a href="https://github.com/AdrianaMargiotta-git" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/adriana-maria-margiotta-aa5b2b175"><i class="fab fa-linkedin" target="_blank"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
